@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* ScrollZoomAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {809, 628}}";
+			sepNavSelRange = "{359, 0}";
+			sepNavVisRange = "{0, 366}";
+		};
+	};
+	1D3623250D0F684500981E51 /* ScrollZoomAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {809, 628}}";
+			sepNavSelRange = "{483, 0}";
+			sepNavVisRange = "{0, 728}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* ScrollZoom */ = {
+		activeExec = 0;
+		executables = (
+			5B0F2397112EB46100E79CCE /* ScrollZoom */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* ScrollZoomViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {809, 628}}";
+			sepNavSelRange = "{269, 12}";
+			sepNavVisRange = "{0, 552}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* ScrollZoomViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {809, 2457}}";
+			sepNavSelRange = "{4049, 0}";
+			sepNavVisRange = "{3140, 1315}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 5B0F2397112EB46100E79CCE /* ScrollZoom */;
+		activeSDKPreference = iphonesimulator3.1.3;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* ScrollZoom */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* ScrollZoom */,
+		);
+		breakpoints = (
+			5B32D8C01132AFAD003522DE /* ScrollZoomViewController.m:151 */,
+		);
+		codeSenseManager = 5B0F239D112EB48400E79CCE /* Code sense */;
+		executables = (
+			5B0F2397112EB46100E79CCE /* ScrollZoom */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA23EDF0692099D00951B8B" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					186,
+					20,
+					185,
+					185,
+					185,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					10,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 288628688;
+			PBXWorkspaceStateSaveDate = 288628688;
+		};
+		perUserProjectItems = {
+			5B0F23A3112EB56600E79CCE = 5B0F23A3112EB56600E79CCE /* PBXTextBookmark */;
+			5B0F23A4112EB56600E79CCE = 5B0F23A4112EB56600E79CCE /* PBXTextBookmark */;
+			5B0F23A5112EB56600E79CCE = 5B0F23A5112EB56600E79CCE /* PBXTextBookmark */;
+			5B0F23D4112EB8C700E79CCE = 5B0F23D4112EB8C700E79CCE /* PlistBookmark */;
+			5B0F23D5112EB8C700E79CCE = 5B0F23D5112EB8C700E79CCE /* PBXBookmark */;
+			5B1872BF11341FD300461521 /* PBXTextBookmark */ = 5B1872BF11341FD300461521 /* PBXTextBookmark */;
+			5B1872C611341FE100461521 /* PBXTextBookmark */ = 5B1872C611341FE100461521 /* PBXTextBookmark */;
+			5B1872C711341FE100461521 /* PBXTextBookmark */ = 5B1872C711341FE100461521 /* PBXTextBookmark */;
+			5B1872C811341FE100461521 /* PBXTextBookmark */ = 5B1872C811341FE100461521 /* PBXTextBookmark */;
+			5B32D8861132ADC5003522DE = 5B32D8861132ADC5003522DE /* PBXBookmark */;
+			5B35A295113413CE00F7E065 = 5B35A295113413CE00F7E065 /* PBXTextBookmark */;
+			5BB5B9ED113404C10074E7E8 = 5BB5B9ED113404C10074E7E8 /* PBXTextBookmark */;
+			5BD878E7113411D300E5FDB9 = 5BD878E7113411D300E5FDB9 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 5B0F239C112EB48400E79CCE /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {809, 628}}";
+			sepNavSelRange = "{349, 0}";
+			sepNavVisRange = "{0, 393}";
+		};
+	};
+	32CA4F630368D1EE00C91783 /* ScrollZoom_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {809, 628}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 189}";
+		};
+	};
+	5B0F2397112EB46100E79CCE /* ScrollZoom */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = ScrollZoom;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	5B0F239C112EB48400E79CCE /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	5B0F239D112EB48400E79CCE /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	5B0F23A3112EB56600E79CCE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 14";
+		rLen = 0;
+		rLoc = 349;
+		rType = 0;
+		vrLen = 393;
+		vrLoc = 0;
+	};
+	5B0F23A4112EB56600E79CCE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* ScrollZoomAppDelegate.h */;
+		name = "ScrollZoomAppDelegate.h: 17";
+		rLen = 0;
+		rLoc = 359;
+		rType = 0;
+		vrLen = 366;
+		vrLoc = 0;
+	};
+	5B0F23A5112EB56600E79CCE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ScrollZoomAppDelegate.m */;
+		name = "ScrollZoomAppDelegate.m: 18";
+		rLen = 0;
+		rLoc = 483;
+		rType = 0;
+		vrLen = 728;
+		vrLoc = 0;
+	};
+	5B0F23D4112EB8C700E79CCE /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* ScrollZoom-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			LSRequiresIPhoneOS,
+		);
+		name = "/Users/Martin/Desktop/iPhone Projects/ScrollZoom/ScrollZoom-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	5B0F23D5112EB8C700E79CCE /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 5B0F23CE112EB7F800E79CCE /* photo.png */;
+	};
+	5B1872BF11341FD300461521 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ScrollZoomViewController.m */;
+		name = "ScrollZoomViewController.m: 154";
+		rLen = 0;
+		rLoc = 4049;
+		rType = 0;
+		vrLen = 426;
+		vrLoc = 3808;
+	};
+	5B1872C611341FE100461521 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ScrollZoomViewController.m */;
+		name = "ScrollZoomViewController.m: 154";
+		rLen = 0;
+		rLoc = 4049;
+		rType = 0;
+		vrLen = 1315;
+		vrLoc = 3140;
+	};
+	5B1872C711341FE100461521 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* ScrollZoom_Prefix.pch */;
+		name = "ScrollZoom_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 189;
+		vrLoc = 0;
+	};
+	5B1872C811341FE100461521 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* ScrollZoom_Prefix.pch */;
+		name = "ScrollZoom_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 189;
+		vrLoc = 0;
+	};
+	5B32D8861132ADC5003522DE /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 5B32D87C1132AB5D003522DE /* photo2.png */;
+	};
+	5B32D8C01132AFAD003522DE /* ScrollZoomViewController.m:151 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 28D7ACF70DDB3853001CB0EB /* ScrollZoomViewController.m */;
+		functionName = "-viewForZoomingInScrollView:";
+		hitCount = 6;
+		ignoreCount = 0;
+		lineNumber = 151;
+		location = ScrollZoom;
+		modificationTime = 288625145.322571;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	5B35A295113413CE00F7E065 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ScrollZoomViewController.m */;
+		name = "ScrollZoomViewController.m: 154";
+		rLen = 0;
+		rLoc = 4049;
+		rType = 0;
+		vrLen = 1296;
+		vrLoc = 3178;
+	};
+	5BB5B9ED113404C10074E7E8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* ScrollZoomViewController.h */;
+		name = "ScrollZoomViewController.h: 12";
+		rLen = 12;
+		rLoc = 269;
+		rType = 0;
+		vrLen = 552;
+		vrLoc = 0;
+	};
+	5BD878E7113411D300E5FDB9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ScrollZoomViewController.m */;
+		name = "ScrollZoomViewController.m: 149";
+		rLen = 20;
+		rLoc = 3908;
+		rType = 0;
+		vrLen = 1393;
+		vrLoc = 2975;
+	};
+}
