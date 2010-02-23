@@ -14,6 +14,7 @@
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		28D7ACF80DDB3853001CB0EB /* ScrollZoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* ScrollZoomViewController.m */; };
 		5B0F23CF112EB7F800E79CCE /* photo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B0F23CE112EB7F800E79CCE /* photo.png */; };
+		5B1872D21134216A00461521 /* iphoneicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B1872D11134216A00461521 /* iphoneicon.png */; };
 		5B32D87D1132AB5D003522DE /* photo2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B32D87C1132AB5D003522DE /* photo2.png */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* ScrollZoom_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollZoom_Prefix.pch; sourceTree = "<group>"; };
 		5B0F23CE112EB7F800E79CCE /* photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo.png; sourceTree = "<group>"; };
+		5B1872D11134216A00461521 /* iphoneicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphoneicon.png; sourceTree = "<group>"; };
 		5B32D87C1132AB5D003522DE /* photo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo2.png; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* ScrollZoom-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ScrollZoom-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -90,6 +92,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				5B1872D11134216A00461521 /* iphoneicon.png */,
 				5B32D87C1132AB5D003522DE /* photo2.png */,
 				8D1107310486CEB800E47090 /* ScrollZoom-Info.plist */,
 				5B0F23CE112EB7F800E79CCE /* photo.png */,
@@ -151,6 +154,7 @@
 			files = (
 				5B0F23CF112EB7F800E79CCE /* photo.png in Resources */,
 				5B32D87D1132AB5D003522DE /* photo2.png in Resources */,
+				5B1872D21134216A00461521 /* iphoneicon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

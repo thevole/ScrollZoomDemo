@@ -23,15 +23,15 @@
 	28D7ACF60DDB3853001CB0EB /* ScrollZoomViewController.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {809, 628}}";
-			sepNavSelRange = "{269, 12}";
+			sepNavSelRange = "{338, 0}";
 			sepNavVisRange = "{0, 552}";
 		};
 	};
 	28D7ACF70DDB3853001CB0EB /* ScrollZoomViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {809, 2457}}";
+			sepNavIntBoundsRect = "{{0, 0}, {809, 2535}}";
 			sepNavSelRange = "{4049, 0}";
-			sepNavVisRange = "{3140, 1315}";
+			sepNavVisRange = "{0, 1031}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
