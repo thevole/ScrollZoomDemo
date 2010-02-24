@@ -8,6 +8,8 @@
 
 #import "ScrollZoomViewController.h"
 
+#define kIMAGEVIEWTAGBASE 1000
+
 @implementation ScrollZoomViewController
 
 @synthesize scroller;
@@ -37,6 +39,7 @@
 	CGRect rect = scrollView.bounds;
 	UIImageView *anImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"photo.png"]];
 	anImageView.frame = rect;
+	anImageView.tag = kIMAGEVIEWTAGBASE + 0;
 	anImageView.contentMode = UIViewContentModeScaleAspectFit;
 	anImageView.backgroundColor = [UIColor redColor];
 	[scrollView addSubview:anImageView];
@@ -52,6 +55,7 @@
 	anImageView.frame = rect;
 	anImageView.contentMode = UIViewContentModeScaleAspectFit;
 	anImageView.backgroundColor = [UIColor blueColor];
+	anImageView.tag = kIMAGEVIEWTAGBASE + 1;
 	[scrollView addSubview:anImageView];
 	[anImageView release];
 	
