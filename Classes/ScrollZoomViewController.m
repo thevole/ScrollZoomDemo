@@ -61,8 +61,18 @@
 	[scrollView addSubview:anImageView];
 	[anImageView release];
 	
+	
+	rect.origin.x += rect.size.width;
+	anImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"photo3.png"]];
+	anImageView.frame = rect;
+	anImageView.contentMode = UIViewContentModeScaleAspectFit;
+	anImageView.backgroundColor = [UIColor blueColor];
+	anImageView.tag = kIMAGEVIEWTAGBASE + 2;
+	[scrollView addSubview:anImageView];
+	[anImageView release];
+	
 	scrollView.pagingEnabled = YES;
-	scrollView.contentSize = CGSizeMake(rect.size.width * 2.0f, rect.size.height);
+	scrollView.contentSize = CGSizeMake(rect.size.width * 3.0f, rect.size.height);
 	
 }
 
