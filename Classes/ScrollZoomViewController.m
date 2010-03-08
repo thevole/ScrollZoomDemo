@@ -15,6 +15,7 @@
 @synthesize scroller;
 @synthesize mainImageView;
 @synthesize containedImageViews;
+@synthesize containedImageFrames;
 
 #pragma mark Initializers and teardown
 
@@ -29,6 +30,7 @@
 	[mainImageView release];
 	[scroller release];
 	[containedImageViews release];
+	[containedImageFrames release];
     [super dealloc];
 }
 
@@ -112,7 +114,8 @@
 	CGFloat width = self.scroller.bounds.size.width;
 	NSInteger imageIndex = pt.x / width;
 	NSLog(@"Working with image %d", imageIndex);
-	return self.mainImageView;
+	UIImageView *workingImageView = (UIImageView *)[self.scroller viewWithTag:kIMAGEVIEWTAGBASE + imageIndex];
+	return workingImageView; 
 }
 
 - (void)startZoom {
@@ -121,22 +124,32 @@
 	UIView *currentView = [self currentView];
 	
 	NSMutableArray *subviewList = [NSMutableArray array];
+	NSMutableArray *frameList = [NSMutableArray array];
 	for (UIView *childView in self.scroller.subviews) {
-		if ([childView isKindOfClass:[UIImageView class]]) {
+		if ([childView isKindOfClass:[UIImageView class]] && childView.tag >= kIMAGEVIEWTAGBASE) {
 			[subviewList addObject:childView];
+			[frameList addObject:NSStringFromCGRect(childView.frame)];
 			if (childView != currentView)
 				[childView removeFromSuperview];
 		}
 	}
 	self.containedImageViews = subviewList;
+	self.containedImageFrames = frameList;
 	self.scroller.contentSize = scroller.bounds.size;
 	self.scroller.pagingEnabled = NO;
+	CGRect rect = self.scroller.bounds;
+
+	currentView.frame = rect;
+	self.mainImageView = (UIImageView *)currentView;
 
 }
 
 - (void)stopZoom {
 	UIView *currentView = self.mainImageView;
-	for (UIView *childView in containedImageViews) {
+	for (int i = 0; i < [containedImageViews count]; i++)  {
+		UIView *childView = [containedImageViews objectAtIndex:i];
+		CGRect rect = CGRectFromString( [containedImageFrames objectAtIndex: i] );
+		childView.frame = rect;
 		if (childView != currentView) {
 			[self.scroller addSubview:childView];
 		}
@@ -147,6 +160,9 @@
 	self.scroller.contentSize = contentSize;
 	self.scroller.pagingEnabled = YES;
 	self.containedImageViews = nil;
+	self.containedImageFrames = nil;
+	[self.scroller scrollRectToVisible:currentView.frame animated:NO];
+	
 }
 
 #pragma mark -

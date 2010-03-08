@@ -16,6 +16,7 @@
 		5B0F23CF112EB7F800E79CCE /* photo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B0F23CE112EB7F800E79CCE /* photo.png */; };
 		5B1872D21134216A00461521 /* iphoneicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B1872D11134216A00461521 /* iphoneicon.png */; };
 		5B32D87D1132AB5D003522DE /* photo2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B32D87C1132AB5D003522DE /* photo2.png */; };
+		5BF6108B114531DC00BA872B /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5BF6108A114531DC00BA872B /* readme.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		5B0F23CE112EB7F800E79CCE /* photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo.png; sourceTree = "<group>"; };
 		5B1872D11134216A00461521 /* iphoneicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphoneicon.png; sourceTree = "<group>"; };
 		5B32D87C1132AB5D003522DE /* photo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo2.png; sourceTree = "<group>"; };
+		5BF6108A114531DC00BA872B /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* ScrollZoom-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ScrollZoom-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,6 +94,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				5BF6108A114531DC00BA872B /* readme.txt */,
 				5B1872D11134216A00461521 /* iphoneicon.png */,
 				5B32D87C1132AB5D003522DE /* photo2.png */,
 				8D1107310486CEB800E47090 /* ScrollZoom-Info.plist */,
@@ -155,6 +158,7 @@
 				5B0F23CF112EB7F800E79CCE /* photo.png in Resources */,
 				5B32D87D1132AB5D003522DE /* photo2.png in Resources */,
 				5B1872D21134216A00461521 /* iphoneicon.png in Resources */,
+				5BF6108B114531DC00BA872B /* readme.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

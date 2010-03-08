@@ -13,11 +13,13 @@
 	UIImageView *mainImageView;
 	BOOL isZooming;
 	NSArray *containedImageViews;
+	NSArray *containedImageFrames;
 }
 
 @property (nonatomic, retain) UIScrollView *scroller;
 @property (nonatomic, retain) UIImageView *mainImageView;
 @property (nonatomic, retain) NSArray *containedImageViews;
+@property (nonatomic, retain) NSArray *containedImageFrames;
 
 @end
 
