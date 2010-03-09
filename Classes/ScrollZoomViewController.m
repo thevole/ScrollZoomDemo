@@ -119,7 +119,7 @@
 #pragma mark -
 #pragma mark Zoom management
 
-- (UIView *)currentView {
+- (UIView *)activeView {
 	CGPoint pt = self.scroller.contentOffset;
 	CGFloat width = self.scroller.bounds.size.width;
 	NSInteger imageIndex = pt.x / width;
@@ -131,7 +131,7 @@
 - (void)startZoom {
 	// Find view that is being touched
 	
-	UIView *currentView = [self currentView];
+	UIView *currentView = [self activeView];
 	
 	NSMutableArray *subviewList = [NSMutableArray array];
 	NSMutableArray *frameList = [NSMutableArray array];
